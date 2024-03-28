@@ -15,6 +15,8 @@ From the following analysis, we can find the more effective drug regimens for tu
 * Line 277: Only one outlier was obtained from the Infubinol, versus two outliers identified in "pymaceuticals_starter.ipynb". I double checked my one outlier by exporting DataFrame "tumor_list" and manually checking the file in Excel, and believe my answer is correct.
 * Line 280: I interpreted the question as "Calculated the average tumor volume per weight for the Capomulin regimen", which generates one scatter point per weight in the Capomulin_data DataFrame. I'm not sure why there are multiple tumor volumes for the same weight in the "pymaceuticals_starter.ipynb" file.
 
+Please address these discrepencies in the marker comments.
+
 ## Acknowledgment
 
 Code in line [278] was taken from: https://stackoverflow.com/questions/47657651/boxplot-from-dictionary-with-different-length
